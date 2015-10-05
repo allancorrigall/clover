@@ -220,3 +220,17 @@ footer {
 
 	}
 }
+
+.market-icon {
+	margin-left:auto;
+	margin-right:auto;
+margin-top:00px;
+@include adjust-font-size-to(110px);	
+width:300px;
+height:300px;
+border-radius: 50%;
+background-color:  $brand-primary;
+color:$brand-second;
+text-align: center;
+padding-top:80px;
+}

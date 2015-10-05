@@ -8,7 +8,7 @@
                         <br class="hidden-xs">
                         <h2 class="text-center">Call Us</h2>
                         <hr>
-                        <h3 class="text-center alt-font">(604) 751-5842</h3>
+                        <h3 class="text-center alt-font contact-link"><a href="tel:604-751-5842">(604) 751-5842</a></h3>
                     </div>
                     <div class="col-sm-2 text-center">
                         <div class="hr-vertical">
@@ -21,7 +21,7 @@
                         <br class="hidden-xs">
                         <h2 class="text-center">Email Us</h2>
                         <hr>
-                        <h3 class="text-center alt-font">info@cloverdecks.com</h3>
+                        <h3 class="text-center alt-font contact-link"><a href="info@cloverdecks.com">info@cloverdecks.com</a></h3>
                     </div>
                 </div>
                 <br>

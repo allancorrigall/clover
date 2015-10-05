@@ -18,7 +18,7 @@ in Abbotsford and the surrounding area.</p>
   <br class="visible-xs">
   <h4>Contact Us</h4>
   <ul>
-  <li><a>(604) 751-5842</a></li>
+  <li><a href="tel:604-751-5842">(604) 751-5842</a></li>
   <li><a href="mailto:info@cloverdecks.com">info@cloverdecks.com</a></li>
   </ul>
     </div>

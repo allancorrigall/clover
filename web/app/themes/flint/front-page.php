@@ -80,8 +80,11 @@
             <br>
             <div class="row pitch">
                <div class="col-md-4 col-md-offset-2 col-md-push-6 col-sm-5 col-sm-push-7">
-                    <div class="img-container">
+                    <div class="img-container hidden">
                         <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/deck-material-01.jpg" class="img-responsive img-circle">
+                    </div>
+                    <div class="market-icon">
+                      <span class="glyphicon glyphicons-glyphicon glyphicon-tree-conifer"></span>
                     </div>
                 </div>
                 <div class="col-md-6 pitch-text col-md-pull-6 col-sm-7 col-sm-pull-5">
@@ -95,8 +98,11 @@
             <br>
             <div class="row  pitch">
                 <div class="col-md-4 col-sm-5">
-                    <div class="img-container">
+                    <div class="img-container hidden">
                         <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/deck-material-01.jpg" class="img-responsive img-circle">
+                    </div>
+                    <div class="market-icon">
+                      <span class="glyphicon glyphicons-glyphicon glyphicon-piggy-bank"></span>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-2 pitch-text col-sm-7">
@@ -109,8 +115,11 @@
             <br>
             <div class="row pitch">
                <div class="col-md-4 col-md-offset-2 col-md-push-6 col-sm-5 col-sm-push-7">
-                    <div class="img-container">
+                    <div class="img-container hidden">
                         <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/deck-material-01.jpg" class="img-responsive img-circle">
+                    </div>
+                    <div class="market-icon">
+                      <span class="glyphicon glyphicons-glyphicon glyphicon-wrench"></span>
                     </div>
                 </div>
                 <div class="col-md-6 pitch-text col-md-pull-6 col-sm-7 col-sm-pull-5">
@@ -179,13 +188,13 @@ endif;
 ?>
 <div class="row">
 <div class="col-xs-4">
-<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/TREX-logo.png" class="img-responsive brands">
+<a href="http://www.trex.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/TREX-logo.png" class="img-responsive brands"></a>
 </div>
 <div class="col-xs-4">
-<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/azek-logo.jpg" class="img-responsive brands">
+<a href="http://www.azek.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/azek-logo.jpg" class="img-responsive brands"></a>
 </div>
 <div class="col-xs-4">
-<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/timbertech-logo.png" class="img-responsive brands">
+<a href="http://timbertech.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/timbertech-logo.png" class="img-responsive brands"></a>
 </div>
 
 </div>
