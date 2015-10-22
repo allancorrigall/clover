@@ -27,10 +27,8 @@
                 <div class="inner cover">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-6 col-sm-offset-6">
-                                <br class="hidden-xs">
-                                <br class="hidden-xs">
-                                <br class="hidden-xs">
+                            <div class="col-sm-6 col-sm-offset-5">
+                              
                                 <h1 class="cover-heading">Custom built</h1>
                                 <hr>
                                 <p class="lead">All decks are custom designed</b>
@@ -48,14 +46,14 @@
                 <div class="inner cover">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-8">
-                                <br class="hidden-xs">
+                            <div class="col-sm-8 col-sm-offset-2">
+                                
                                 <br class="hidden-xs">
                                 <br class="hidden-xs">
                                 <h1 class="cover-heading">Maintenance Free Materials</h1>
                                 <hr>
-                                <p class="lead">For those that want a hassle free deck,</b>
-                                    <br class="hidden-xs"> we have plenty of options for you.</p>
+                                <p class="lead">Instead of summers spent scraping, painting and </b>
+                                    <br class="hidden-xs"> repairing - you can now enjoy a hassle free deck.</p>
                             </div>
                         </div>
                     </div>
@@ -79,17 +77,15 @@
             <br>
             <br>
             <div class="row pitch">
-               <div class="col-md-4 col-md-offset-2 col-md-push-6 col-sm-5 col-sm-push-7">
-                    <div class="img-container hidden">
-                        <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/deck-material-01.jpg" class="img-responsive img-circle">
+               <div class="col-md-5 col-md-offset-1 col-md-push-6 col-sm-5 col-sm-push-7">
+                    <div class="img-container">
+                        <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/cloverdecks-quality.png" class="img-responsive">
                     </div>
-                    <div class="market-icon">
-                      <span class="glyphicon glyphicons-glyphicon glyphicon-tree-conifer"></span>
-                    </div>
+                    
                 </div>
                 <div class="col-md-6 pitch-text col-md-pull-6 col-sm-7 col-sm-pull-5">
-                    <h1>Quality Materials</h1>
-                    <h4>pressure treated and cedar or the latest composite and PVC materials, we have enjoyed a reputation of top quality service and workmanship.</h4>
+                    <h1>Quality Products</h1>
+                    <h4>We use only top quality products to build beautiful outdoor living spaces. From the deck framing materials and deck boards to the types of fasteners you will have a space to enjoy for years to come. All composite, PVC, and vinyl decking are from top rated companies and  come with the manufacturers warranty. </h4>
                 </div>
              
             </div>
@@ -97,52 +93,49 @@
             <br>
             <br>
             <div class="row  pitch">
-                <div class="col-md-4 col-sm-5">
-                    <div class="img-container hidden">
-                        <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/deck-material-01.jpg" class="img-responsive img-circle">
+                <div class="col-md-5 col-sm-5">
+                    <div class="img-container">
+                        <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/cloverdecks-process.png" class="img-responsive ">
                     </div>
-                    <div class="market-icon">
-                      <span class="glyphicon glyphicons-glyphicon glyphicon-piggy-bank"></span>
-                    </div>
+                   
                 </div>
-                <div class="col-md-6 col-md-offset-2 pitch-text col-sm-7">
-                    <h1>Honest Pricing</h1>
-                    <h4>pressure treated and cedar or the latest composite and PVC materials, we have enjoyed a reputation of top quality service and workmanship.</h4>
+                <div class="col-md-6 col-md-offset-1 pitch-text col-sm-7">
+                    <h1>Our Process</h1>
+                    <h4>In home consultation. Within a few days, you will receive a quote and can show you drawings and 3D images of your deck. We book an estimated start date to build your deck with an approximate length of time it will take.</h4>
                 </div>
             </div>
             <br>
             <br>
             <br>
             <div class="row pitch">
-               <div class="col-md-4 col-md-offset-2 col-md-push-6 col-sm-5 col-sm-push-7">
-                    <div class="img-container hidden">
-                        <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/deck-material-01.jpg" class="img-responsive img-circle">
+               <div class="col-md-5 col-md-offset-1 col-md-push-6 col-sm-5 col-sm-push-7">
+                    <div class="img-container">
+                        <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/cloverdecks-team.png" class="img-responsive">
                     </div>
-                    <div class="market-icon">
-                      <span class="glyphicon glyphicons-glyphicon glyphicon-wrench"></span>
-                    </div>
+                   
                 </div>
                 <div class="col-md-6 pitch-text col-md-pull-6 col-sm-7 col-sm-pull-5">
                     <h1>Professional team</h1>
-                    <h4>pressure treated and cedar or the latest composite and PVC materials, we have enjoyed a reputation of top quality service and workmanship.</h4>
+                    <h4>Dependable and Reliable service from the first phone call to the finishing touches. All our workmanship is guaranteed for one year. </h4>
                 </div>
              
             </div>
             <br>
-            <br>
-            <br>
-</div>
+           </div>
 <? $the_query = new WP_Query( 'page_id=6' );
 $output = "";
 while ( $the_query->have_posts() ) :
 $the_query->the_post();
 ?>
     <div class="container">
-        <hr>
+        
+
+        <br>
+
+   <br>
         <br>
         <br>
-        <br>
-        <br>
+
         <?php
 
 // check if the repeater field has rows of data
@@ -186,19 +179,26 @@ else :
 endif;
 
 ?>
-<div class="row">
-<div class="col-xs-4">
-<a href="http://www.trex.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/TREX-logo.png" class="img-responsive brands"></a>
+ <br>
+          
+
+ <h1 class="text-center title">Reccomended products</h1>
+        <div class="row">
+<div class="col-sm-3 col-xs-6">
+<a href="http://www.trex.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/trex.png" class="img-responsive brands"></a>
 </div>
-<div class="col-xs-4">
-<a href="http://www.azek.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/azek-logo.jpg" class="img-responsive brands"></a>
+<div class="col-sm-3 col-xs-6">
+<a href="http://www.azek.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/azek.png" class="img-responsive brands"></a>
 </div>
-<div class="col-xs-4">
-<a href="http://timbertech.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/timbertech-logo.png" class="img-responsive brands"></a>
+<div class="col-sm-3 col-xs-6">
+<a href="http://timbertech.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/timbertech.png" class="img-responsive brands"></a>
+</div>
+<div class="col-sm-3 col-xs-6">
+<a href="http://tufdek.com/"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/tufdek.png" class="img-responsive brands"></a>
 </div>
 
 </div>
-
+  <br>  <br>
     </div>
     <?php
 endwhile;

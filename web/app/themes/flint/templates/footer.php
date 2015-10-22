@@ -23,5 +23,7 @@ in Abbotsford and the surrounding area.</p>
   </ul>
     </div>
     </div>
+<br><br>
+    <p class="text-center text-small"><small>&copy; CLOVER DECKS <?php echo date('Y'); ?> | DESIGNED BY <a href="http://www.lanterncreative.ca">Lantern Creative</a></small></p>
   </div>
 </footer>
